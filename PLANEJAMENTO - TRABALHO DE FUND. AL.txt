@@ -1,0 +1,56 @@
+PLANEJAMENTO - TRABALHO DE FUND. ALGORITMOS 
+
+I) Análise do que é pedido: É necessário criar um programa que leia os resultados dos jogos do Brasileirão (Campeonato Brasileiro de Futebol) através de um arquivo de texto (o código
+para leitura do arquivo foi fornecido e está em anexo na documentação disponibilizada). 
+  
+O programa deve produzir respostas para as seguintes perguntas:
+
+  Qual a classificação dos times no campeonato?
+
+  Quais o(s) time(s) com melhor aproveitamento jogando como anfitrião? 
+
+  Qual o time com a defesa menos vazada? 
+ 
+  Cada uma dessas perguntas corresponde a uma função que deve ser construída, além de outras funções auxiliares para a solução de problemas menores que surgirão no caminho.
+
+CRITÉRIOS DE CLASSIFICAÇÃO
+ 
+Os times são classificados de acordo com: os PONTOS, quem tem mais pontos fica na frente de quem tem menos pontos. Se DOIS ou MAIS times têm o MESMO número de pontos, então, os seguintes critérios são utilizados para o desempate: número de vitórias, saldo de gols (número de gols feitos menos o número de gols sofridos) e ordem alfabética (Sim, é injusto! Mas essa é uma simplificação…). 
+
+
+=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=
+EXEMPLO:
+
+Supondo que um arquivo resultados.txt tenha o seguinte conteúdo:
+
+Sao-Paulo 1 Atletico-MG 2 
+Flamengo 2 Palmeiras 1 
+Palmeiras 0 Sao-Paulo 0 
+Atletico-MG 1 Flamengo 2
+
+A saída do print(jogos) (comando para ler o arquivo.txt) imprimirá este resultado:
+
+['Sao-Paulo 1 Atletico-MG 2 \n', 'Flamengo 2 Palmeiras 1 \n', 'Palmeiras 0 Sao-Paulo 0 \n', 'Atletico-MG 1 Flamengo 2\n']
+
+=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=
+II) Decomposição dos problemas:
+
+A FAZER: SOLUÇÃO DA PERGUNTA 1
+A FAZER: SOLUÇÃO DA PERGUNTA 2
+A FAZER: SOLUÇÃO DA PERGUNTA 3
+
+  Para a 1° pergunta será necessário resolver os seguintes problemas:
+
+	a) A partir da lista criada com o resultado dos jogos, descobrir uma maneira de:
+		i. separar o nome dos times 	
+		ii. identificar e separar a pontuação de cada respectivo time
+		iii. de acordo com o desempenho de cada time e com os critérios de classificação impostos, realizar a classificação de todos os times da lista.
+
+  B) CLASSIFICAÇÃO:
+
+  VITÓRIA = 3 PONTOS
+  EMPATE = 1 PONTO
+  
+att: já consegui descobrir uma forma de isolar o nome dos times e possivelmente sua respectiva pontuação também, utilizando funções que acham o primeiro e o último espaço da frase, juntamente com manipulação e fatiamento de strins
+
+=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
