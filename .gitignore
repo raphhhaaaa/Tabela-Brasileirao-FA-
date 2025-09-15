@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+Thumbs.db
+
+venv/
+.env/
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+*.txt
+!jogos_exemplo.txt   # mantém o arquivo de exemplo no repositório
