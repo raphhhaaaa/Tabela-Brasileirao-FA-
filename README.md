@@ -47,7 +47,7 @@ ou alternativamente, use o arquivo `jogos_exemplo.txt` fornecido.
 
 3. Clone este reposítorio e execute o programa no terminal:
 ```bash
-git clone https://github.com/raphhhaaaa/TRABALHO_FA.git
+git clone https://github.com/raphhhaaaa/Tabela-Brasileirao-FA-.git
 ```
 ```bash
 cd TRABALHO_FA
