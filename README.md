@@ -53,7 +53,7 @@ git clone https://github.com/raphhhaaaa/Tabela-Brasileirao-FA-.git
 cd Tabela-Brasileirao-FA-
 ```
 ```bash
-python RAPHAEL_RA147190.py jogos_exemplo.txt
+python main.py jogos_exemplo.txt
 ```
 
 ---
