@@ -50,7 +50,7 @@ ou alternativamente, use o arquivo `jogos_exemplo.txt` fornecido.
 git clone https://github.com/raphhhaaaa/Tabela-Brasileirao-FA-.git
 ```
 ```bash
-cd TRABALHO_FA
+cd Tabela-Brasileirao-FA-
 ```
 ```bash
 python RAPHAEL_RA147190.py jogos_exemplo.txt
